@@ -4,7 +4,7 @@
   "description": "Chatbot supreme",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "~11.0.0",
+    "discord.js": "~11.0.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -18,5 +18,5 @@
   "repository": {
     "type": "git",
     "url": "git@heroku.com:orionthebot.git"
-  },
+  }
 }
