@@ -1,0 +1,25 @@
+{
+  "name": "orionthebot",
+  "version": "0.2.5",
+  "description": "Orion_the_Bot",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node mybot.js"
+  },
+  "dependencies": {
+    "discord.js": "2.4.1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
