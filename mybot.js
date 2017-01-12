@@ -185,7 +185,7 @@ var responseObject = {
   "Ready Player One": ":palm_tree::ocean: ",
   "ready player one": ":palm_tree::ocean: ",
   "Leucosia": "booting...",
-  "booting..": "Ready Player One",
+  "booting...": "Ready Player One",
   "kennedy": ":grinning:Kennedy, yup.:grinning:",
   "Kennedy": ":grinning:Kennedy, yup.:grinning:",
   "KENNEDY": ":grinning:Kennedy, yup.:grinning:",
