@@ -4,8 +4,9 @@
   "description": "Chatbot supreme",
   "main": "index.js",
   "dependencies": {
-    "express": "4.x",
-    "discord.js": "~11.0.0"
+    "heroku-client": "~2.4.3",
+    "discord.js": "~11.0.0",
+    "express": "~4.1.0"
   },
   "devDependencies": {},
   "scripts": {
