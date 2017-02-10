@@ -99,7 +99,7 @@ var responseObject = {
   "yes": "What he said",
   "yea": "What he said",
   "yup": "What he said",
-  "bot, play music": "!resume",
+/*  "bot, play music": "!resume",
   "bot, pause music": "!pause",
   "bot play music": "!resume",
   "bot pause music": "!pause",
@@ -121,7 +121,7 @@ var responseObject = {
   "bot resume": "!resume",
   "bot, skip ": "!skip",
   "bot skip ": "!skip",
-  "bot skip": "!skip",
+  "bot skip": "!skip", */
   "u r my only friend": "Friend? Who said we were friends?",
   "bot u r my only friend": "Friend? Who said we were friends?",
   "bot you are my only friend": "Friend? Who said we were friends?",
