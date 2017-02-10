@@ -229,5 +229,9 @@ bot.on('message', (message) => {
 bot.on('ready', () => {
   console.log('All Systems Operational.');
 });
+function restartpepe() {
+	heroku.apps('rgb-bot-pepe').dynos().restartAll();
+}
+setTimeout(restartpepe, 1200000);
 
 bot.login("MjI5MTI2MTIwNTIyMzgzMzYw.Cseuvw.Q9xka-th1rTHHsgyK2GkGlkpZk0");
