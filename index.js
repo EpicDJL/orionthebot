@@ -14,7 +14,7 @@ app.get('/', function(request, response) {
 
 var Discord = require("discord.js");
 var bot = new Discord.Client();
-var responseObject = obj;
+var responseObject = chat;
 bot.on('message', (message) => {
   if(responseObject[message.content]) {
     message.channel.sendMessage(responseObject[message.content]);
