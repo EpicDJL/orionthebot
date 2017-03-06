@@ -1,3 +1,5 @@
+var chat = require(chat);
+var obj = JSON.parse(chat.readFileSync('chat.json', 'utf8'));
 var express = require('express');
 var app     = express();
 app.set('port', (process.env.PORT || 5000));
