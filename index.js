@@ -15,9 +15,9 @@ app.get('/', function(request, response) {
 var Discord = require("discord.js");
 var bot = new Discord.Client();
 var responseObject = chat;
-var responsepepe = responseObject[message.content].toLowerCase();
+var responsepepe = responseObject[message.content]
 bot.on('message', (message) => {
-  if(responsepepe) {
+  if(responsepepe.toLowerCase();) {
     message.channel.sendMessage(responseObject[message.content]);
   }
 });
