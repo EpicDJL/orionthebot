@@ -1,5 +1,7 @@
-var chat = require(chat);
-var obj = JSON.parse(chat.readFileSync('chat.json', 'utf8'));
+const fs = require("fs");
+
+let chatpepe = JSON.parse(fs.readFileSync('./chat.json', 'utf8'));
+
 var express = require('express');
 var app     = express();
 app.set('port', (process.env.PORT || 5000));
@@ -14,7 +16,7 @@ app.get('/', function(request, response) {
 
 var Discord = require("discord.js");
 var bot = new Discord.Client();
-var responseObject = chat;
+var responseObject = chatpepe;
 bot.on('message', (message) => {
   if(responseObject[message.content]) {
     message.channel.sendMessage(responseObject[message.content]);
@@ -23,6 +25,7 @@ bot.on('message', (message) => {
 bot.on('ready', () => {
   console.log('All Systems Operational.');
 });
+
 function restartpepe() {
 	heroku.apps('rgb-bot-pepe').dynos().restartAll();
 }
